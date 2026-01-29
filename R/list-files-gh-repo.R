@@ -204,10 +204,10 @@ NULL
 #'
 #' @export
 #'
-#' @seealso [list_files_wd()], [list_files_github_gists()]
+#' @seealso list_files_wd, list_files_github_gists
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' library(dplyr)
 #' library(funspotr)
 #'

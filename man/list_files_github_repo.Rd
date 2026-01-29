@@ -33,7 +33,7 @@ Return a dataframe containing the paths of files in a github repostiory.
 Generally used prior to \verb{spot_\{funs/pkgs\}_files()}.
 }
 \examples{
-\donttest{
+\dontrun{
 library(dplyr)
 library(funspotr)
 
@@ -48,5 +48,5 @@ contents \%>\%
 }
 }
 \seealso{
-\code{\link[=list_files_wd]{list_files_wd()}}, \code{\link[=list_files_github_gists]{list_files_github_gists()}}
+list_files_wd, list_files_github_gists
 }

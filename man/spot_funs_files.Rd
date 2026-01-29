@@ -14,7 +14,7 @@ spot_pkgs_files(df, ..., .progress = TRUE)
 
 \item{...}{Arguments passed onto \verb{spot_\{pkgs|funs\}()}.}
 
-\item{.progress}{Whether to show a progress bar. Use \code{TRUE} to a turn on
+\item{.progress}{Whether to show a progress bar. Use \code{TRUE} to turn on
 a basic progress bar, use a string to give it a name, or see
 \link[purrr]{progress_bars} for more details.}
 }
@@ -41,7 +41,7 @@ Default settings are meant for files where package libraries are referenced
 \emph{within} the files themselves. See README for more details.
 }
 \examples{
-\donttest{
+\dontrun{
 library(funspotr)
 library(dplyr)
 

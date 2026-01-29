@@ -33,7 +33,7 @@ Generally used prior to \verb{spot_\{funs/pkgs\}_files()}.
 Can also be used outside of working directory if \code{path} is specified.
 }
 \examples{
-\donttest{
+\dontrun{
 library(dplyr)
 library(funspotr)
 
@@ -48,5 +48,5 @@ contents \%>\%
 }
 }
 \seealso{
-\code{\link[=list_files_github_repo]{list_files_github_repo()}}, \code{\link[=list_files_github_gists]{list_files_github_gists()}}
+list_files_github_repo, list_files_github_gists
 }
